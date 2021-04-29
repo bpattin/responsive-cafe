@@ -1,0 +1,487 @@
+/***** BASE STYLES *****/
+
+html {
+  font-size: 18px;
+}
+
+body{
+    color:#2d99c8;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+  h1 {
+    display: flex;
+    color: #2d99c8;
+    font-family: 'Halant';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height:60px;
+    margin-top: 300px;
+    margin-block-end: 0;
+    padding-top: 25px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  h2 {
+    color: #ff6045;
+    font-size: 36px;
+    font-family:'Halant',serif;
+    font-weight: bold;
+    padding: 15px 0 0 20px;
+    text-align: left;
+  }
+
+  p {
+    text-align:center
+  }
+
+  body{
+    background: url('../img/grass.png');
+  }
+
+/***** GRID *****/
+  .full-width {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 67%;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .half-width {
+    width: 50%;
+  }
+
+  .third-width{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    padding: 0 15px 25px;
+    width: 32%;
+  }
+
+/*****HEADER*****/
+  header .full-width{
+    display:flex;
+    background: url('../img/hero-handsome.png');
+    background-size: cover;
+    background-position: center;
+  }
+
+  #logo img{
+    margin-left: 5%;
+    width: 60%;
+  }
+
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-flow: row wrap;
+  }
+
+  nav ul {
+    padding: 0 10px;
+  }
+
+  nav ul li{
+      display: inline-block;
+  }
+
+  nav ul li a {
+      color: #ff6045;
+      display: inline-block;
+      font-size: 20px;
+      padding: 0 10px;
+      text-decoration: none;
+  }
+
+  nav ul li a:hover {
+      color:#2d99c8;
+      font-size:25px;
+  }
+
+/*****MENU*****/
+  #menu .full-width{
+      background-color: #fcfbf7;
+      clear: both;
+      height: auto;
+      padding: 5px 0;
+  }
+
+  .menu-content-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+  }
+
+  #menu img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:100%;
+  }
+
+  #menu .third-width {
+    padding: 0 15px 25px;
+  }
+
+
+  .third-width #beverages,
+  #food,
+  #treats {
+    padding:  0 0 35px;
+    text-align: center;
+    width: 33.3%;
+  }
+
+  /*#beverage img,
+  #food img,
+  #treats img {
+      height: 500px;
+      object-position: initial;
+      width: 395px;
+  }*/
+
+  #menu h2 a {
+      color: #2d99c8;
+      font-size: 36px;
+      font-family:'Halant',serif;
+      font-weight: bold;
+      padding-top: 15px;
+      text-align: left;
+  }
+
+  #menu h2 a:hover {
+    background-color:  #f3ffbd;
+    font-size: 40px;
+  }
+
+  #menu h3 {
+    color:  #2d99c8;
+    font-size: 30px;
+    font-family:'Raleway',sans-serif;
+    font-weight: bold;
+    padding-top: 15px;
+    text-align: center;
+  }
+
+/*****ABOUT US*****/
+      #about-us-photo .full-width{
+        background-color: #fcfbf7;
+        text-align: center;
+      }
+
+      #about-us-photo img {
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        width: 99%;
+        margin-left: 1%;
+        margin-bottom: 5%;
+        background-size: cover;
+        background-position: center;
+      }
+
+      #about-us-info p{
+          color: #fcfcf7;
+          font-family: 'Halant';
+          font-size: 36px;
+          font-weight: bolder;
+          line-height: 1.5;
+          margin-bottom: 50px;
+          padding: 10px;
+          width: 1160px;
+        }
+
+        #about-us-info a {
+          color:#fcfcf7;
+          font-size: 36px;
+        }
+
+        #about-us-info a:hover {
+          background-color:  #f3ffbd;
+          color:#ff6045;
+        }
+
+/*****FOOTER*****/
+
+        #contact-us .full-width{
+          background-color:#fcfbf7;
+        }
+
+        .contact-us-wrapper {
+          padding-left: 5%;
+          padding-right: 5%;
+          display: flex;
+          justify-content: center;
+          align-items: flex-start;
+          flex-flow: row wrap;
+        }
+
+        #contact-us .third-width {
+
+        }
+
+        #social.third-width {
+          display: flex;
+          flex-direction: column;
+        }
+
+
+
+        #contact-us p{
+          font-weight: bolder;
+        }
+
+        #links {
+          margin-top: 55px;
+        }
+
+        #social img {
+          display: flex;
+          flex-direction: column;
+          justify-content:center;
+          padding-left: 35%;
+          padding-right: 35%;
+          padding-top: 47%;
+          padding-bottom: 47%;
+        }
+
+        #info p{
+          padding-bottom: 125px;
+        }
+
+        p span{
+          padding-top:125px;
+        }
+
+
+        #info a{
+            color: #ff6045;
+            padding: 0 75px;
+            padding-top: 0px;
+            text-align: center;
+        }
+
+        #info a:hover {
+          background-color:  #f3ffbd;
+          font-size: 30px;
+        }
+
+        h4 {
+            background-color: #f3ffbd;
+            color: #2d99c8;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h4 span{
+            color: #ff6045;
+            font-weight: bold;
+        }
+
+        h4 span:hover {
+            font-size: 25px;
+        }
+
+        h4 a {
+          color: #2d99c8;
+        }
+/*****MENU PAGE*****/
+        #menu-page-header.full-width {
+          background: url('../img/alfie.png');
+          height: 600px;
+          background-size: cover;
+          background-position: center;
+        }
+
+        #menu-page-header .full-width .half-width nav ul li a {
+          color: #ff6045;
+          display: inline-block;
+          font-family: 'Raleway',sans-serif;
+          font-size: 20px;
+          font-weight: bold;
+          padding-left: 10px;
+          text-decoration: none;
+        }
+
+        #menu-image .full-width img{
+          width: 100%;
+        }
+
+/*****REVIEWS PAGE*****/
+        #reviews-page-header.full-width {
+          background: url('../img/chihuahua.png');
+          height: 650px;
+          background-size: cover;
+          background-position: center;
+        }
+
+        .heading h2 {
+          background-color: #fcfbf7;
+          padding: 15px 0 15px 20px;
+        }
+
+        div.gallery {
+          border: 1px solid #ccc;
+        }
+
+        div.gallery:hover {
+          border: 5px solid #ff6045;
+        }
+
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+
+        div.desc {
+          padding: 15px;
+          text-align: center;
+          background-color: #fcfbf7;
+        }
+
+        * {
+          box-sizing: border-box;
+        }
+
+        .responsive {
+          padding: 0 6px;
+          float: left;
+          width: 24.99999%;
+        }
+
+        .clearfix {
+            background-color: #fcfbf7;
+            padding-bottom: 15px;
+            margin: 15px 0 15px 0;
+        }
+
+        /* ==========================================================================
+           Media Queries for Responsive Design.
+           ========================================================================== */
+
+        @media only screen and (max-width: 1200px) {
+
+          header .full-width {
+            display: flex;
+            background: url(../img/cookie.png);
+          } 
+
+          
+          nav {
+            width: 25%;
+    		    flex-direction: column;
+    		    padding-left: 45%;
+    		    padding-right: 15%;
+          }
+
+
+
+
+          .menu-content-wrapper {
+            flex-direction:column;
+            align-items:center;
+            width:100%;
+          }
+
+          #menu.third-width {
+    		    width: 100%;
+  		    }
+
+        
+          #beverages,
+          #food,
+          #treats {
+            display: flex;
+            flex-direction: column;
+            padding:  0 0 35px;
+            width: 100%;
+          }
+
+          .contact-us-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+          }
+
+          #social img {
+            padding-left: 0;
+            padding-right: 0;
+          }
+
+          #info p{
+            padding-bottom: 0px;
+          }
+
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+
+        }
+
+
+
+
+        @media only screen and (max-width: 700px) {
+          #logo img {
+              width: 75%;
+          }
+
+          #about-us-info p {
+            font-size: 1.5rem;
+            line-height: 1;
+          }
+
+          .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+          }
+
+          .third-width {
+            width: 100%;
+          }
+
+
+        }
+
+        @media only screen and (max-width: 500px) {
+          nav {
+            padding-right: 35%;
+            padding-left: 25%;
+          }
+          
+          
+          .responsive {
+            width: 100%;
+          }
+
+          #links {
+            margin-top: 0px;
+          }
+
+        
+        } 
+          .clearfix:after {
+            content:"";
+            display: table;
+            clear: both;
+          }  
+            
+        
+        

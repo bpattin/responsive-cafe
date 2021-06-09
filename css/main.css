@@ -442,7 +442,7 @@ body{
 
         @media only screen and (max-width: 700px) {
           #logo img {
-              width: 75%;
+            width: 75%;
           }
 
           #about-us-info p {
@@ -466,6 +466,18 @@ body{
           nav {
             padding-right: 35%;
             padding-left: 25%;
+          }
+
+          .full-width,
+          header .full-width,
+          #menu .full-width,
+          #about-us-photo .full-width,
+          #contact-us .full-width,
+          #menu-page-header.full-width,
+          #reviews-page-header.full-width {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
           }
           
           
